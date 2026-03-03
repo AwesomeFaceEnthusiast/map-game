@@ -4,7 +4,7 @@ var options = [];
 var ids = [];
 var randomOpt;
 
-mapName.addEventListener('load', () => {
+document.addEventListener('load', () => {
   if (mapID === "bhGovernorates") {
     options = ["Capital Governorate", "Muharraq Governorate", "Northern Governorate", "Southern Governorate"];
     ids = ["capitalGovernorate","muharraqGovernorate","northernGovernorate","southernGovernorate"];
